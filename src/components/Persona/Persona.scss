@@ -18,8 +18,16 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 1rem;
     }
     
+    &__container-three {
+        background-color: $logo-green;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     &__olivia-image-container {
         display: flex;
         justify-content: center;
@@ -153,5 +161,39 @@
         &--light {
             color: white;
         }
+    }
+
+    &__goals-section {
+        padding-top: 1rem;
+    }
+
+    &__goals-title {
+        color: white;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    &__goals-copy {
+        font-size: .85rem;
+        text-align: center;
+        padding: 0 2rem;
+        color: white;
+    }
+
+    &__frustrations-section {
+        padding-bottom: 1rem;
+    }
+
+    &__frustrations-title {
+        color: white;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    &__frustrations-copy {
+        font-size: .85rem;
+        text-align: center;
+        padding: 0 2rem;
+        color: white;   
     }
 }

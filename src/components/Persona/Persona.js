@@ -85,6 +85,33 @@ function Persona() {
           </div>
         </div>
       </div>
+
+      <div className="persona__container-three">
+        <div className="persona__goals-section">
+          <h2 className="persona__goals-title">Goals</h2>
+          <p className="persona__goals-copy">
+            To impress her friends and family with good teas when they visit.
+          </p>
+          <p className="persona__goals-copy">
+            Spend as much of her free time doing the things she loves.
+          </p>
+          <p className="persona__goals-copy">
+            Experience new things from the comfort of her home.
+          </p>
+        </div>
+        <div className="persona__frustrations-section">
+          <h2 className="persona__frustrations-title">Frustrations</h2>
+          <p className="persona__frustrations-copy">
+            To impress her friends and family with good teas when they visit.
+          </p>
+          <p className="persona__frustrations-copy">
+            Spend as much of her free time doing the things she loves.
+          </p>
+          <p className="persona__frustrations-copy">
+            Experience new things from the comfort of her home.
+          </p>
+        </div>
+      </div>
     </section>
   );
 }
