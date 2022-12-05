@@ -197,19 +197,62 @@
         color: white;   
     }
 
+    &__personality-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    &__personality-type {
+        margin: .5rem 0;
+    }
+
     &__personality-title {
         color: $logo-green;
-        margin: .5rem 0;
+        margin: 1rem 0;
         font-size: 1.25rem;
         text-align: center;
     }
 
     &__personality-label-container {
+        width: 250px;
         display: flex;
         justify-content: space-between;
     }
 
     &__personality-label {
         margin: 0;
+        font-size: .75rem;
+    }
+
+    &__personality-bar {
+        background-color: rgba(161, 161, 161, 0.431372549);
+        width: 250px;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    &__personality-slider {
+       background-color: $logo-green;
+       width: 50px;
+       height: 20px;
+       border-radius: 5px;
+       
+       &--introvert {
+        margin-left: 170px;
+       }
+
+       &--sensing {
+        margin-left: 75px;
+       }
+
+       &--thinking {
+        margin-left: 25px;
+       }
+
+       &--judging {
+        margin-left: 75px;
+       }
     }
 }

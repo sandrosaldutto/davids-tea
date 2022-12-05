@@ -116,9 +116,41 @@ function Persona() {
       <div className="persona__container-four">
         <div className="persona__personality-section">
           <h2 className="persona__personality-title">Personality</h2>
-          <div className="persona__personality-label-container">
-            <p className="persona__personality-label">Extrovert</p>
-            <p className="persona__personality-label">Introvert</p>
+          <div className="persona__personality-type">
+            <div className="persona__personality-label-container">
+              <p className="persona__personality-label">Extrovert</p>
+              <p className="persona__personality-label">Introvert</p>
+            </div>
+            <div className="persona__personality-bar">
+              <div className="persona__personality-slider persona__personality-slider--introvert"></div>
+            </div>
+          </div>
+          <div className="persona__personality-type">
+            <div className="persona__personality-label-container">
+              <p className="persona__personality-label">Sensing</p>
+              <p className="persona__personality-label">Intuition</p>
+            </div>
+            <div className="persona__personality-bar">
+              <div className="persona__personality-slider persona__personality-slider--sensing"></div>
+            </div>
+          </div>
+          <div className="persona__personality-type">
+            <div className="persona__personality-label-container">
+              <p className="persona__personality-label">Thinking</p>
+              <p className="persona__personality-label">Feeling</p>
+            </div>
+            <div className="persona__personality-bar">
+              <div className="persona__personality-slider persona__personality-slider--thinking"></div>
+            </div>
+          </div>
+          <div className="persona__personality-type">
+            <div className="persona__personality-label-container">
+              <p className="persona__personality-label">Judging</p>
+              <p className="persona__personality-label">Perceiving</p>
+            </div>
+            <div className="persona__personality-bar">
+              <div className="persona__personality-slider persona__personality-slider--judging"></div>
+            </div>
           </div>
         </div>
       </div>
