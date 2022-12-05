@@ -10,11 +10,7 @@ function Persona() {
       <div className="persona__container-one">
         <h1 className="persona__name">Olivia Munroe</h1>
         <div className="persona__olivia-image-container">
-          <img
-            src={olivia}
-            alt="picture of olivia"
-            className="persona__olivia-image"
-          />
+          <img src={olivia} alt="olivia" className="persona__olivia-image" />
         </div>
         <div className="persona__highlights-container">
           <div className="persona__highlights-left">
