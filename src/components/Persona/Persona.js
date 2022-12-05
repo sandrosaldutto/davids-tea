@@ -30,6 +30,18 @@ function Persona() {
             <p className="persona__highlights-copy">Toronto,ON</p>
           </div>
         </div>
+        <div className="persona__brands-section">
+          <h2 className="persona__brands-title">Brands</h2>
+          <div className="persona__brands-logo-container">
+            <img src={amazon} alt="amazon" className="persona__brand-logo" />
+            <img
+              src={helloFresh}
+              alt="hello fresh"
+              className="persona__brand-logo"
+            />
+            <img src={indigo} alt="indigo" className="persona__brand-logo" />
+          </div>
+        </div>
       </div>
 
       <div className="persona__container-two">
@@ -114,9 +126,6 @@ function Persona() {
             Experience new things from the comfort of her home.
           </p>
         </div>
-      </div>
-
-      <div className="persona__container-four">
         <div className="persona__personality-section">
           <h2 className="persona__personality-title">Personality</h2>
           <div className="persona__personality-type">
@@ -153,19 +162,6 @@ function Persona() {
             </div>
             <div className="persona__personality-bar">
               <div className="persona__personality-slider persona__personality-slider--judging"></div>
-            </div>
-          </div>
-
-          <div className="persona__brands-section">
-            <h2 className="persona__brands-title">Brands</h2>
-            <div className="persona__brands-logo-container">
-              <img src={amazon} alt="amazon" className="persona__brand-logo" />
-              <img
-                src={helloFresh}
-                alt="hello fresh"
-                className="persona__brand-logo"
-              />
-              <img src={indigo} alt="indigo" className="persona__brand-logo" />
             </div>
           </div>
         </div>

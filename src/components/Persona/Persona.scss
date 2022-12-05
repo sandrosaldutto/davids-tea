@@ -6,6 +6,11 @@
 .persona {
     font-family: $font-stack;
     margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
 
     &__container-one {
         display: flex;
@@ -18,7 +23,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 1rem;
+        margin-bottom: 1rem; 
     }
     
     &__container-three {
@@ -47,6 +52,7 @@
         margin: 1rem;
         padding: 1rem;
         border-radius: 25px;
+        width: 260px;
     }
 
     &__highlights-container {
@@ -165,6 +171,7 @@
 
     &__goals-section {
         padding-top: 1rem;
+        width: 300px;
     }
 
     &__goals-title {
@@ -182,6 +189,7 @@
 
     &__frustrations-section {
         padding-bottom: 1rem;
+        width: 300px;
     }
 
     &__frustrations-title {
