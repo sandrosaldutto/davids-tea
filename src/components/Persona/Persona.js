@@ -43,6 +43,47 @@ function Persona() {
             enjoy both at work and at home.
           </p>
         </div>
+        <div className="persona__motivations-container">
+          <h2 className="persona__motivations-title">Motivations</h2>
+          <div className="persona__motivation-section persona__motivation-section--light">
+            <p className="persona__motivation-copy">Achievement</p>
+          </div>
+          <div className="persona__motivation-section persona__motivation-section--creative">
+            <p className="persona__motivation-copy persona__motivation-copy--light">
+              Creative
+            </p>
+          </div>
+          <div className="persona__motivation-section persona__motivation-section--physiological persona__motivation-section--light">
+            <p className="persona__motivation-copy">Physiological</p>
+          </div>
+          <div className="persona__motivation-section persona__motivation-section--reward">
+            <p className="persona__motivation-copy persona__motivation-copy--light">
+              Reward
+            </p>
+          </div>
+          <div className="persona__motivation-section persona__motivation-section--fear persona__motivation-section--light">
+            <p className="persona__motivation-copy">Fear</p>
+          </div>
+          <div className="persona__motivation-section persona__motivation-section--social">
+            <p className="persona__motivation-copy persona__motivation-copy--light">
+              Social
+            </p>
+          </div>
+          <div className="persona__motivation-section persona__motivation-section--competence persona__motivation-section--light">
+            <p className="persona__motivation-copy">Competence</p>
+          </div>
+          <div
+            className="persona__motivation-section
+          persona__motivation-section--attitude"
+          >
+            <p className="persona__motivation-copy persona__motivation-copy--light">
+              Attitude
+            </p>
+          </div>
+          <div className="persona__motivation-section persona__motivation-section--power persona__motivation-section--light">
+            <p className="persona__motivation-copy">Power</p>
+          </div>
+        </div>
       </div>
     </section>
   );

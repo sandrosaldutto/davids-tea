@@ -94,4 +94,64 @@
         font-size: .85rem;
         margin: .5rem 0;
     }
+    
+    &__motivations-title {
+        color: $logo-green;
+        font-size: 1.25rem;
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+        text-align: center;
+    }
+
+    &__motivation-section {
+        background-color: #A1A1A1; 
+        width: 250px;
+        border-radius: 0 25px 25px 0;
+        padding-left: .5rem;
+
+        &--light {
+            background-color: #a1a1a16e
+        }
+
+        &--creative {
+            width: 100px;
+        }
+
+        &--physiological {
+            width: 180px; 
+        }
+
+        &--reward {
+            width: 200px;
+        }
+
+        &--fear {
+            width: 50px;
+        }
+
+        &--social {
+            width: 70px;
+        }
+
+        &--competence {
+            width: 200px;
+        }
+
+        &--attitude {
+            width: 160px;
+        }
+
+        &--power {
+            width: 80px;
+        }
+    }
+
+    &__motivation-copy {
+        font-size: .85rem;
+        color:  #555555 ;
+
+        &--light {
+            color: white;
+        }
+    }
 }
