@@ -1,0 +1,68 @@
+@use "/src/styles/partials/colors" as *;
+@use "/src/styles/partials/typography" as *;
+@use "/src/styles/partials/variables" as *;
+@use "/src/styles/partials/mixins" as *;
+
+.persona {
+    font-family: $font-stack;
+    margin-top: 5rem;
+
+    &__container-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    &__olivia-image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $logo-green;
+        width: 260px;
+        height: 260px;
+        border-radius: 140px;
+    }
+
+    &__highlights-container {
+        display: flex;
+        margin-top: 2rem;
+    }
+
+    &__name {
+        font-weight: 300;
+        color: #555555;
+        text-align: center;
+    }
+
+    &__olivia-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    &__highlights-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: .5rem;
+    }
+
+    &__highlights-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: .5rem;
+    }
+
+    &__highlights-title {
+        margin: .25rem 0;
+        font-size: .85rem;
+        font-weight: 700;
+        color: $logo-green;
+    }
+    
+    &__highlights-copy {
+        margin: .25rem 0;
+        font-size: .85rem;
+        font-weight: 300;
+    }
+}
