@@ -112,6 +112,16 @@ function Persona() {
           </p>
         </div>
       </div>
+
+      <div className="persona__container-four">
+        <div className="persona__personality-section">
+          <h2 className="persona__personality-title">Personality</h2>
+          <div className="persona__personality-label-container">
+            <p className="persona__personality-label">Extrovert</p>
+            <p className="persona__personality-label">Introvert</p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

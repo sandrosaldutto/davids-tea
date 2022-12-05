@@ -196,4 +196,20 @@
         padding: 0 2rem;
         color: white;   
     }
+
+    &__personality-title {
+        color: $logo-green;
+        margin: .5rem 0;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    &__personality-label-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__personality-label {
+        margin: 0;
+    }
 }
