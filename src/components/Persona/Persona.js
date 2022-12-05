@@ -1,5 +1,8 @@
 import "./Persona.scss";
 import olivia from "../../assets/images/olivia-monroe.png";
+import amazon from "../../assets/logos/amazon.svg";
+import helloFresh from "../../assets/logos/hello-fresh.svg";
+import indigo from "../../assets/logos/indigo.svg";
 
 function Persona() {
   return (
@@ -150,6 +153,19 @@ function Persona() {
             </div>
             <div className="persona__personality-bar">
               <div className="persona__personality-slider persona__personality-slider--judging"></div>
+            </div>
+          </div>
+
+          <div className="persona__brands-section">
+            <h2 className="persona__brands-title">Brands</h2>
+            <div className="persona__brands-logo-container">
+              <img src={amazon} alt="amazon" className="persona__brand-logo" />
+              <img
+                src={helloFresh}
+                alt="hello fresh"
+                className="persona__brand-logo"
+              />
+              <img src={indigo} alt="indigo" className="persona__brand-logo" />
             </div>
           </div>
         </div>
