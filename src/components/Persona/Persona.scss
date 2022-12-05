@@ -5,9 +5,16 @@
 
 .persona {
     font-family: $font-stack;
-    margin-top: 5rem;
+    margin-top: 4rem;
 
     &__container-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    &__container-two {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -21,6 +28,17 @@
         width: 260px;
         height: 260px;
         border-radius: 140px;
+    }
+
+    &__biography-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #F5F5F5;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 25px;
     }
 
     &__highlights-container {
@@ -64,5 +82,16 @@
         margin: .25rem 0;
         font-size: .85rem;
         font-weight: 300;
+    }
+
+    &__biography-title {
+        color: $logo-green;
+        margin: .5rem 0;
+        font-size: 1.25rem;
+    }
+
+    &__biography-copy {
+        font-size: .85rem;
+        margin: .5rem 0;
     }
 }

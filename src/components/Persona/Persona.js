@@ -28,6 +28,22 @@ function Persona() {
           </div>
         </div>
       </div>
+
+      <div className="persona__container-two">
+        <div className="persona__biography-container">
+          <h2 className="persona__biography-title">Biography</h2>
+          <p className="persona__biography-copy">
+            Olivia is a single nurse who works long shifts at the hospital.
+            During her limited free time, she enjoys cozying up in her sunroom
+            with a good book and a hot tea. Olivia cares about convenience and
+            how she spends her free time, so she looks for ways to increase her
+            time at home by using online platforms to bring things to her. As an
+            avid tea-drinker she likes to try new teas, cares about quality, and
+            appreciates tips and tricks on how to make the tastiest teas to
+            enjoy both at work and at home.
+          </p>
+        </div>
+      </div>
     </section>
   );
 }
