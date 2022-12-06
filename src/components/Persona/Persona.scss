@@ -5,13 +5,31 @@
 
 .persona {
     font-family: $font-stack;
-    margin-top: 4rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 1rem;
 
+    &__header {
+        margin-top: 5.5rem;
+        text-align: center;
+        font-size: 1.5rem;
+        border-bottom: .1px solid lightgray;
+        padding: 1rem 0;
+        color: $logo-green;
+        margin-left: 5rem;
+        margin-right: 5rem;
 
+        @include tablet {
+            margin-left: 8rem;
+            margin-right: 8rem; 
+        }
+
+        @include desktop {
+            margin-left: 20rem;
+            margin-right: 20rem; 
+        }
+    }
 
     &__container-one {
         display: flex;
