@@ -113,13 +113,13 @@ function Persona() {
         <div className="persona__frustrations-section">
           <h2 className="persona__frustrations-title">Frustrations</h2>
           <p className="persona__frustrations-copy">
-            To impress her friends and family with good teas when they visit.
+            Being inconvenienced and wasting time.
           </p>
           <p className="persona__frustrations-copy">
-            Spend as much of her free time doing the things she loves.
+            Poor quality teas both in product and how they're made.
           </p>
           <p className="persona__frustrations-copy">
-            Experience new things from the comfort of her home.
+            Shopping retail because of busy parking lots and long lines.
           </p>
         </div>
         <div className="persona__personality-section">
