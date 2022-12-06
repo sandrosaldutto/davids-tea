@@ -11,7 +11,7 @@
     padding: 1rem;
 
     &__header {
-        margin-top: 5.5rem;
+        margin-top: 4.5rem;
         text-align: center;
         font-size: 1.5rem;
         border-bottom: .1px solid lightgray;
@@ -19,6 +19,7 @@
         color: $logo-green;
         margin-left: 5rem;
         margin-right: 5rem;
+        padding-bottom: 1.5rem; 
 
         @include tablet {
             margin-left: 8rem;
