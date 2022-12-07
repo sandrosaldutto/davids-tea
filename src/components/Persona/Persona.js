@@ -25,7 +25,7 @@ function Persona() {
               <p className="persona__highlights-copy">35</p>
               <p className="persona__highlights-copy">Nurse</p>
               <p className="persona__highlights-copy">Single</p>
-              <p className="persona__highlights-copy">Toronto,ON</p>
+              <p className="persona__highlights-copy">Toronto, ON</p>
             </div>
           </div>
           <div className="persona__brands-section">
@@ -51,7 +51,7 @@ function Persona() {
               with a good book and a hot tea. Olivia cares about convenience and
               how she spends her free time, so she looks for ways to increase
               her time at home by using online platforms to bring things to her.
-              As an avid tea-drinker she likes to try new teas, cares about
+              As an avid tea drinker she likes to try new teas, cares about
               quality, and appreciates tips and tricks on how to make the
               tastiest teas to enjoy both at work and at home.
             </p>
