@@ -1,0 +1,314 @@
+@use "/src/styles/partials/colors" as *;
+@use "/src/styles/partials/typography" as *;
+@use "/src/styles/partials/variables" as *;
+@use "/src/styles/partials/mixins" as *;
+
+.persona {
+    font-family: $font-stack;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+
+    &__header {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 1.5rem;
+        border-bottom: .1px solid lightgray;
+        padding: 1rem 0;
+        color: $logo-green;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        padding-bottom: 1.5rem;
+        margin-bottom: 0;
+
+        @include tablet {
+            margin-left: 16rem;
+            margin-right: 16rem; 
+        }
+
+        @include desktop {
+            margin-left: 30rem;
+            margin-right: 30rem; 
+        }
+    }
+
+    &__container-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    &__container-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 1.5rem 1rem 1.5rem;
+    }
+    
+    &__container-three {
+        background-color: #6fc3c2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 25px;
+        margin-top: 1rem;
+    }
+
+    &__olivia-image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $logo-green;
+        width: 260px;
+        height: 260px;
+        border-radius: 140px;
+    }
+
+    &__biography-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #F5F5F5;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 25px;
+        width: 260px;
+    }
+
+    &__highlights-container {
+        display: flex;
+        margin-top: 2rem;
+    }
+
+    &__name {
+        font-weight: 300;
+        color: #555555;
+        text-align: center;
+        margin: .5rem 0;
+    }
+
+    &__olivia-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    &__highlights-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: .5rem;
+    }
+
+    &__highlights-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: .5rem;
+    }
+
+    &__highlights-title {
+        margin: .25rem 0;
+        font-size: .85rem;
+        font-weight: 700;
+        color: $logo-green;
+    }
+    
+    &__highlights-copy {
+        margin: .25rem 0;
+        font-size: .85rem;
+        font-weight: 300;
+    }
+
+    &__biography-title {
+        color: $logo-green;
+        margin: .5rem 0;
+        font-size: 1.25rem;
+    }
+
+    &__biography-copy {
+        font-size: .85rem;
+        margin: .5rem 0;
+    }
+    
+    &__motivations-title {
+        color: $logo-green;
+        font-size: 1.25rem;
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+        text-align: center;
+    }
+
+    &__motivation-section {
+        background-color: #A1A1A1; 
+        width: 250px;
+        border-radius: 0 25px 25px 0;
+        padding-left: .5rem;
+
+        &--light {
+            background-color: #a1a1a16e
+        }
+
+        &--creative {
+            width: 100px;
+        }
+
+        &--physiological {
+            width: 180px; 
+        }
+
+        &--reward {
+            width: 200px;
+        }
+
+        &--fear {
+            width: 50px;
+        }
+
+        &--social {
+            width: 70px;
+        }
+
+        &--competence {
+            width: 200px;
+        }
+
+        &--attitude {
+            width: 160px;
+        }
+
+        &--power {
+            width: 80px;
+        }
+    }
+
+    &__motivation-copy {
+        font-size: .85rem;
+        color:  #555555 ;
+
+        &--light {
+            color: white;
+        }
+    }
+
+    &__goals-section {
+        width: 300px;
+    }
+
+    &__goals-title {
+        color: white;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    &__goals-copy {
+        font-size: .85rem;
+        text-align: center;
+        padding: 0 2rem;
+        color: white;
+    }
+
+    &__frustrations-section {
+        padding-bottom: .5rem;
+        width: 300px;
+    }
+
+    &__frustrations-title {
+        color: white;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    &__frustrations-copy {
+        font-size: .85rem;
+        text-align: center;
+        padding: 0 2rem;
+        color: white;   
+    }
+
+    &__personality-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    &__personality-type {
+        margin: .5rem 0;
+    }
+
+    &__personality-title {
+        color: white;
+        margin: 1rem 0;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    &__personality-label-container {
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__personality-label {
+        margin: 0;
+        font-size: .75rem;
+        color: white;
+    }
+
+    &__personality-bar {
+        background-color: rgb(255, 255, 255);
+        width: 250px;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    &__personality-slider {
+       background-color: $logo-green;
+       width: 50px;
+       height: 20px;
+       border-radius: 5px;
+       
+       &--introvert {
+        margin-left: 170px;
+       }
+
+       &--sensing {
+        margin-left: 75px;
+       }
+
+       &--thinking {
+        margin-left: 25px;
+       }
+
+       &--judging {
+        margin-left: 75px;
+       }
+    }
+
+    &__brands-section {
+        margin-top: 1rem;
+    }
+
+    &__brands-title {
+        font-weight: 700;
+        color: $logo-green;
+        font-size: 1.25rem;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    &__brands-logo-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 2rem 0;
+    }
+
+    &__brand-logo {
+        width: 50px;
+        margin: 0 1rem;
+    }
+}
