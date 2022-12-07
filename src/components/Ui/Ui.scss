@@ -7,7 +7,7 @@
     font-family: $font-stack;
 
     &__header {
-        margin-top: 4.5rem;
+        margin-top: 3rem;
         text-align: center;
         font-size: 1.5rem;
         border-bottom: .1px solid lightgray;
@@ -18,13 +18,13 @@
         padding-bottom: 1.5rem; 
 
         @include tablet {
-            margin-left: 8rem;
-            margin-right: 8rem; 
+            margin-left: 16rem;
+            margin-right: 16rem; 
         }
 
         @include desktop {
-            margin-left: 20rem;
-            margin-right: 20rem; 
+            margin-left: 30rem;
+            margin-right: 30rem; 
         }
     }
 
@@ -32,6 +32,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin: 1.5rem 0;
     }
 
     &__image {
