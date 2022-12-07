@@ -8,7 +8,7 @@ function Ui() {
   return (
     <>
       <div className="mockup__images-container">
-        <img src={mockupOne} alt="mockup" className="mockup__image" />
+        <img id="home" src={mockupOne} alt="mockup" className="mockup__image" />
 
         <img src={mockupTwo} alt="mockup" className="mockup__image" />
 
